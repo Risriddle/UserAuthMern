@@ -1,0 +1,21 @@
+.navbar{
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  z-index: 1000; 
+}
+
+.navbar a {
+ 
+  margin-right: 100px;
+  color: white;
+  text-decoration: none;
+}
+
+
+
+
+
