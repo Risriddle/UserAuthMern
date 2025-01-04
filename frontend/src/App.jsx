@@ -16,7 +16,7 @@ const [user,setUser]=useState(null)
 
 
   return (
-    <GoogleOAuthProvider clientId='659129986863-t5of1n9di4b9navu5ctp6n8gntblo1db.apps.googleusercontent.com'>
+    <GoogleOAuthProvider clientId=''>
    <BrowserRouter>
    <nav className='navbar'>
     <Link to="/">Home</Link>  <Link to="/login">Login</Link>  <Link to="/signup">Signup</Link>
