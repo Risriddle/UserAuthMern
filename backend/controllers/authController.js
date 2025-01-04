@@ -186,6 +186,7 @@ exports.googleAuth = catchAsync(async (req, res, next) => {
             name: userRes.data.name,
             email: userRes.data.email,
             image: userRes.data.picture,
+		isVerified:true,
         });
     }
 
